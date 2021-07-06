@@ -1,1 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2021-07-06T10:50:07.237Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" version="14.7.6" etag="daIck5yCT1vGCe3w6C4X" type="github"><diagram id="1gXSRz2jzcBduNN8wxXd">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-06T11:08:14.415Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="XRuVJWnyJLrxgi1ASd8Z" version="14.7.6" type="github">
+  <diagram id="1gXSRz2jzcBduNN8wxXd" name="Page-1">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="I3YQyvT-TNLWHkV0R6Gd-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="I3YQyvT-TNLWHkV0R6Gd-1" target="I3YQyvT-TNLWHkV0R6Gd-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I3YQyvT-TNLWHkV0R6Gd-1" value="&lt;font style=&quot;font-size: 22px&quot;&gt;Create &lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 102)&quot;&gt;external-services/swagger.validation.js&lt;/span&gt;,&lt;br&gt;validate the swagger url with&amp;nbsp;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 102)&quot;&gt;http://{{systemIp}}:{{port}}/swagger.json&lt;/span&gt;&lt;br&gt;after server has been started&lt;br&gt;return logs based on success/failure&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="390" width="445" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="I3YQyvT-TNLWHkV0R6Gd-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="I3YQyvT-TNLWHkV0R6Gd-2" target="I3YQyvT-TNLWHkV0R6Gd-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I3YQyvT-TNLWHkV0R6Gd-2" value="&lt;font style=&quot;font-size: 22px&quot;&gt;Add &lt;span style=&quot;background-color: rgb(255 , 255 , 102)&quot;&gt;swagger-validation&lt;/span&gt;&lt;br&gt;to the scripts&lt;br&gt;&amp;nbsp;in &lt;span style=&quot;background-color: rgb(255 , 255 , 102)&quot;&gt;package.json&lt;/span&gt;&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="760" y="390" width="350" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="I3YQyvT-TNLWHkV0R6Gd-3" value="&lt;font style=&quot;font-size: 22px&quot;&gt;Call &lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 102)&quot;&gt;npm run swagger-validation &lt;/span&gt;&lt;br&gt;from build and deployment&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="390" width="380" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="I3YQyvT-TNLWHkV0R6Gd-6" value="&lt;font style=&quot;font-size: 32px&quot;&gt;Swagger Json CI validation using swagger-parser library&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="525" y="160" width="820" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
